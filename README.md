@@ -4,12 +4,14 @@ Money transfer between account restful api
 
 ## Brief
 
-This is an oversimplified money transfer rest api implementation based on Java EE 8.
+This is an oversimplified money transfer rest api implementation based on Java EE 8, which consumes and produces json requests/responses.
 
 ## Tech Stack
 
 - JDK 1.8
 - Java EE 8
+- DeltaSpike
+- Hibernate
 - Maven 3.X
 - Payara Micro
 - Docker
@@ -26,7 +28,6 @@ This is an oversimplified money transfer rest api implementation based on Java E
 - POST	/micro-bank/api/v1/transfers
 
   Request payload:
-
   {
     "fromAccountNumber": "123456",
     "toAccountNumber": "100000",
